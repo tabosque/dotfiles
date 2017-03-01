@@ -1,7 +1,7 @@
 # .bashrc
 
 export LSCOLORS=xbfxcxdxbxegedabagacad
-export PS1='\u $'
+export PS1='\u$ '
 
 # alias
 alias ll='ls -lh'
