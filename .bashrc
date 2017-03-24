@@ -8,4 +8,6 @@ alias ls='ls -hG'
 alias ll='ls -l'
 alias la='ls -a'
 alias lla='ls -la'
-alias subl='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl'
+if has('mac'); then
+  alias subl='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl'
+fi

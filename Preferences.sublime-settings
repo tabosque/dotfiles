@@ -8,8 +8,8 @@
 		"Vintage"
 	],
 	"open_files_in_new_window": false,
-	"show_encoding": true,
 	"show open files in sidebar": true,
+	"show_encoding": true,
 	"tab_size": 2,
 	"theme": "Material-Theme.sublime-theme",
 	"translate_tabs_to_spaces": true,
