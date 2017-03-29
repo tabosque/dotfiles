@@ -1,7 +1,9 @@
 # .bashrc
 
 export LSCOLORS=gxfxcxdxbxegedabagacad
-export IP=`/sbin/ifconfig eth0 | grep 'inet addr:' | cut -c 21-34 | sed 's/ //g'`
+if [ "$(uname)" != 'Darwin' ]; then
+  export IP=`ip -f inet -o addr | grep -v "127.0.0.1" | cut -d\  -f 7 | cut -d/ -f 1 | awk 'NR == 1'`
+fi
 export PS1='\[\e[0;33m\]\u\e[0;37m\]@\h$IP \e[1;34m\]\w \n\e[1;35m\]\$ \e[0;37m\]'
 
 # alias
