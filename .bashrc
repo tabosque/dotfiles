@@ -9,6 +9,4 @@ alias ls='ls -hG'
 alias ll='ls -l'
 alias la='ls -a'
 alias lla='ls -la'
-if [ -d /Applications ]; then
-  alias subl='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl'
-fi
+alias subl='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl'
