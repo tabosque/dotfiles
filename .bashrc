@@ -14,7 +14,7 @@ alias ll='ls -l'
 alias la='ls -a'
 alias lla='ls -la'
 alias subl='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl'
-if [[ -x `which colordiff` ]]; then
+if has "colordiff"; then
   alias diff='colordiff -u'
 else
   alias diff='diff -u'
