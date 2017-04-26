@@ -19,3 +19,8 @@ if has "colordiff"; then
 else
   alias diff='diff -u'
 fi
+
+# load local .bashrc file
+if [ -f ~/.bashrc.local ]; then
+  . ~/.bashrc.local
+fi
