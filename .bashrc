@@ -9,6 +9,7 @@ fi
 export PS1='\[\e[0;33m\]\u\e[0;37m\]@\h($IP) \e[1;34m\]\w \n\e[1;35m\]\$ \e[0;37m\]'
 
 # alias
+alias sudo='sudo -E '
 alias ls='ls -hG'
 alias ll='ls -l'
 alias la='ls -a'
