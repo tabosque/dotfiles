@@ -21,6 +21,9 @@ else
   alias diff='diff -u'
 fi
 
+# history command
+HISTSIZE=10000
+
 # load local .bashrc file
 if [ -f ~/.bashrc.local ]; then
   . ~/.bashrc.local
