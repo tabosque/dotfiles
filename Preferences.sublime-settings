@@ -3,6 +3,7 @@
 	"auto_complete_commit_on_tab": true,
 	"color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
 	"fold_buttons": true,
+	"font_size": 12,
 	"ignored_packages":
 	[
 		"Vintage"
