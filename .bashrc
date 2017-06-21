@@ -17,6 +17,7 @@ alias lla='ls -la'
 alias subl='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl'
 alias be='bundle exec'
 alias r='bundle exec rails'
+alias now="ruby -e 'puts Time.now.strftime(\"%Y%m%d%H%M\")'"
 if has "colordiff"; then
   alias diff='colordiff -u'
 else
