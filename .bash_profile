@@ -22,4 +22,7 @@ if has "rbenv"; then
   PATH="$HOME/.rbenv/bin:$PATH"
   eval "$(rbenv init -)"
 fi
+if has "go"; then
+  PATH="$HOME/go/bin:$PATH"
+fi
 export PATH
