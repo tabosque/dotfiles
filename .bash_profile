@@ -16,7 +16,6 @@ if has "brew"; then
   fi
 fi
 
-# User specific environment and startup programs
 PATH=$PATH:$HOME/bin
 if has "rbenv"; then
   PATH="$HOME/.rbenv/bin:$PATH"
@@ -26,3 +25,5 @@ if has "go"; then
   PATH="$HOME/go/bin:$PATH"
 fi
 export PATH
+
+export GOPATH=$HOME/go
