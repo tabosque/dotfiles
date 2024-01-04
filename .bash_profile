@@ -27,3 +27,4 @@ fi
 export PATH
 
 export GOPATH=$HOME/go
+export PATH="/usr/local/opt/openssl/bin:$PATH"
